@@ -25,10 +25,15 @@ backdrop-filter:blur(10px);
 z-index:1000;
 }
 
-.logo{
-font-size:28px;
-font-weight:bold;
-color:#00d4ff;
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #00d4ff;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
 }
 
 .navbar ul{
