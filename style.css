@@ -32,8 +32,13 @@ z-index:1000;
 }
 
 .logo img {
-    width: 100px;
+    width: 80px;
     height: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover img {
+    transform: scale(1.1);
 }
 
 .navbar ul{
