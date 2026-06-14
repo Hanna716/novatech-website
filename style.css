@@ -212,3 +212,17 @@ section{
 padding:100px 7%;
 }
 }
+.video-box {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+}
+
+.product-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
