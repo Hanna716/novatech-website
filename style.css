@@ -179,15 +179,29 @@ transition:0.3s ease;
 transform:scale(1.08);
 }
 
-.video-box {
-    width: 100%;
-    height: 400px;
-    border: 5px solid red;
-}
+/* 🎬 VIDEO SECTION（已修正位置） */
 
+.video-box {
+
+width: 100%;
+
+height: 500px;
+
+margin-bottom: 30px;
+
+overflow: hidden;
+
+border-radius: 15px;
+
+}
 .product-video {
-    width: 100%;
-    height: 100%;
+
+width: 100%;
+
+height: 100%;
+
+object-fit: cover;
+
 }
 
 /* FOOTER */
